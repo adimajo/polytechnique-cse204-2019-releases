@@ -123,6 +123,13 @@ To launch Jupyter, use:
 
 [![Local](https://img.shields.io/badge/Local-Save%20As...-blue)](https://github.com/adimajo/polytechnique-cse204-2019-releases/raw/master/lab_session_04/lab_session_04.ipynb)
 
+### Solution:
+
+[![Solutions](https://img.shields.io/badge/Solution-As%20HTML-blueviolet)](https://htmlpreview.github.io/?https://github.com/adimajo/polytechnique-cse204-2019-releases/blob/master/lab_session_04/lab_session_04_solutions.html)
+
+[![Solutions](https://img.shields.io/badge/Solution-Save%20As...-blueviolet)](https://github.com/adimajo/polytechnique-cse204-2019-releases/raw/master/lab_session_04/lab_session_04_solutions.ipynb)
+
+
 ## Lab session 05: Exam 1
 
 ## Lab session 06: building a neural network from scratch (part 1)
