@@ -140,7 +140,7 @@ To launch Jupyter, use:
 
 [![My Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adimajo/polytechnique-cse204-2019-releases/master?filepath=lab_session_06_07%2Flab_session_06_07.ipynb)
 
-[![Local](https://img.shields.io/badge/Local-Save%20As...-blue)](https://github.com/adimajo/polytechnique-cse204-2019-releases/raw/master/lab_session_06/lab_session_06.ipynb)
+[![Local](https://img.shields.io/badge/Local-Save%20As...-blue)](https://github.com/adimajo/polytechnique-cse204-2019-releases/raw/master/lab_session_06_07/lab_session_06_07.ipynb)
 
 
 ## Lab session 07: building a neural network from scratch (part 2)
