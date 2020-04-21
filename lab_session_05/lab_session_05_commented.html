@@ -14512,8 +14512,7 @@ d(\boldsymbol{XY}) &amp; = (d \boldsymbol{X}) \boldsymbol{Y} + \boldsymbol{X} (d
 d(\boldsymbol{X}^T) &amp; = (d \boldsymbol{X})^T \\
 \end{align}<p>Let's develop $E(\boldsymbol{\theta})$:</p>
 \begin{align}
-\nabla E(\boldsymbol{\theta}) &amp; = \nabla \sum_{i=1}^n \log ( 1 + \exp( - y^{(i)} X^{(i)} \cdot \theta ) ) \\
-&amp; = \nabla - \sum_{i=1}^n (1 − y^{(i)}) \ln(1 − \sigma^{(i)}) + (y^{(i)}) \ln(\sigma^{(i)}) \\
+\nabla E(\boldsymbol{\theta}) &amp; = \nabla (- \sum_{i=1}^n (1 − y^{(i)}) \ln(1 − \sigma^{(i)}) + (y^{(i)}) \ln(\sigma^{(i)})) \\
 &amp; = - \sum_{i=1}^n (1 − y^{(i)}) \frac{1}{1 - \sigma^{(i)}}(\sigma^{(i)} - 1)\sigma^{(i)} x^{(i)} + (y^{(i)}) \frac{1}{\sigma^{(i)}}\sigma^{(i)}(1-\sigma^{(i)}) x^{(i)} \\
 &amp; = - \sum_{i=1}^n x^{(i)} ((y^{(i)} - 1)\sigma^{(i)} + (y^{(i)}) (1-\sigma^{(i)})) \\
 &amp; = \sum_{i=1}^n x^{(i)}(\sigma^{(i)} - y^{(i)}) \\
